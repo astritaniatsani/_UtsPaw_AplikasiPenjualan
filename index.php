@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.js"></script>
-	
+	<?php include 'admin/config.php'; ?>
 	<style type="text/css">
 	.kotak{	
 		margin-top: 150px;
@@ -28,7 +28,7 @@
 		}
 		?>
 		<div class="panel panel-default">
-			
+			<form action="login_act.php" method="post">
 				<div class="col-md-4 col-md-offset-4 kotak">
 					<center><h3>Selamat Datang di aplikasi Penjualan</h3><h4>...Silahkan Login...</h4></center>
 					<div class="input-group">
