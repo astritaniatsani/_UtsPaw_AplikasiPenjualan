@@ -72,7 +72,7 @@ include 'config.php';
 
 				<div class="col-xs-6 col-md-12">
 					<a class="thumbnail">
-						<img class="img-responsive" src="foto/<?php echo $f['foto']; ?>">
+					<img class="img-responsive" src="images/ww.jpg">
 					</a>
 				</div>
 				<?php 
@@ -87,7 +87,9 @@ include 'config.php';
 			<li><a href="barang_laku.php"><span class="glyphicon glyphicon-briefcase"></span>  Entry Penjualan</a></li>        												
 			<li><a href="ganti_foto.php"><span class="glyphicon glyphicon-picture"></span>  Ganti Foto</a></li>
 			<li><a href="ganti_pass.php"><span class="glyphicon glyphicon-lock"></span> Ganti Password</a></li>
-			<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>  Logout</a></li>			
+			<li><a href="logout.php"><span class="glyphicon glyphicon-briefcase"></span>  Customer service</a></li>	
+			<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>  Logout</a></li>	
+
 		</ul>
 	</div>
 	<div class="col-md-10">
